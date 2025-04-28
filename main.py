@@ -16,7 +16,9 @@ def main():
     root.title("Tasks")
     root.geometry("300x300")
 
-    root.tk.call("source", resource_path("theme/light.tcl"))
+    # Style the GUI
+    style = ttk.Style()
+    style.theme_use('aqua')
 
     # FUNCTIONS
 

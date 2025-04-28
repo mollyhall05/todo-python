@@ -12,12 +12,8 @@ namespace eval ttk::theme::azure-light {
         proc load_images {imgdir} {
             variable I
             foreach file [glob -directory $imgdir *.png] {
-                set img [file tail [file rootname $file]]
-                set I($img) [image create photo -file $file -format png]
-            }
+                set img [file tail [file rootname $file]]            }
         }
-
-        load_images [file join [file dirname [info script]] light]
         
         array set colors {
             -fg             "#000000"
