@@ -32,7 +32,7 @@ This is a lightweight, GUI-based ToDo list app built with Python's `tkinter` mod
 
 3. **Run the app**:
    ```bash
-   python main.py
+   python3 main.py
    ```
 
 ## 🛠️ Built With
